@@ -173,7 +173,8 @@ python quality_test.py
 | `quality_test.py` | 20 题质量测试，客观题自动判分 |
 | `answers/` | 每个模型的原始回答（主观题要人工抽检） |
 | `bench_results.csv` | 速度原始数据 |
-| `thread_sweep.csv` | 线程曲线原始数据 |
+| `thread_sweep.csv` | 线程曲线原始数据（Q4_K_M + Q8_0）。**注意：其中 Q8_0 那 5 行是在持续负载之后测的，被降频压低了约 40%** |
+| `thread_sweep_q8_cooled.csv` | Q8_0 **冷机**重测（`condition=cooled`），用来验证降频假设；和上面那份对照着看 |
 | `quality_results.csv` | 质量得分 |
 
 ---

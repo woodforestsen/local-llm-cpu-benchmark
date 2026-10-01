@@ -1,0 +1,6 @@
+model,threads,pp_tps,tg_tps,runs,condition
+qwen3:1.7b-q8_0,4,86.14,12.02,5,cooled
+qwen3:1.7b-q8_0,8,89.79,14.95,5,cooled
+qwen3:1.7b-q8_0,12,110.79,20.29,5,cooled
+qwen3:1.7b-q8_0,16,115.99,16.67,5,cooled
+qwen3:1.7b-q8_0,18,100.18,17.02,5,cooled
