@@ -1,0 +1,3 @@
+﻿model,objective_score,objective_pct
+qwen3:1.7b,9/11,81.8
+qwen3:1.7b-q8_0,9/11,81.8
